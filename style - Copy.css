@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    background-color:black;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: column;
+    gap:50px;
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 2px 40px #03578f;
+    font-size: 50px;
+    color:rgb(224, 37, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;  
+    min-height: 300px;
+}
+ img{
+    height: auto;
+    width: auto;
+ }
+
+ .button_container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;  
+    flex-flow:row;
+    gap:80px;
+    
+ }
+ button{
+    height:50px;
+    width:200px;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px black;  
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 40px yellow;
+ }
+
+ button:hover{
+ transform: scale(1.05,1.06);
+ box-shadow: 5px 5px 6px #3498db;
+ }
+
+ #red:hover{
+    background-color: red;
+ }
+ #green:hover{
+    background-color: green;
+ }
+ #black:hover{
+    background-color: black;
+    color:white;
+ }
+ #yellow:hover{
+    background-color: yellow;
+ }
+ #silver:hover{
+    background-color: silver;
+    
+ }
+
+
+
+ @media screen and (max-width:540px){
+
+   h1{
+      text-align: center;
+      text-shadow: 3px 2px 40px #03578f;
+      font-size: 25px;
+      color:rgb(224, 37, 12);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+   img{
+      height: 200px;
+      width: 250px;
+   }
+   .button_container{
+      display: flex;
+      justify-content: center;
+      justify-items: center;  
+      flex-flow:column;
+      gap: 20px;  
+      margin-left: 130px;
+   }
+   button{
+      height:30px;
+      width:100px;
+      background-color:whitesmoke;
+      border-radius: 20px;
+      box-shadow: 1px 2px 5px black;  
+      text-align: center;
+      font-size: 15px;
+      color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-shadow: 5px 5px 40px yellow;
+   }
+ }
+
+ 
